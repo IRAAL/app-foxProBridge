@@ -1,0 +1,11 @@
+{
+    "name": "foxprobridge/php-app",
+    "description": "Proyecto PHP",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
+    "require": {}
+}
