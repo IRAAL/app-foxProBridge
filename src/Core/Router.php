@@ -7,7 +7,7 @@ class Router
     // arreglo de paginas dinamicas
     private array $routes = [
         '/' => 'home.php',
-        // '/contacto' => 'contacto.php',
+        '/contacto' => 'contacto.php'
     ];
 
     public function handleRequest(): void
