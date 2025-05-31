@@ -5,7 +5,7 @@ export function initAutocomplete(selector = '.form-autocomplete') {
         dropdown.className = 'autocomplete-dropdown list-group position-absolute shadow-sm';
         dropdown.style.width = 'auto';
         dropdown.style.minWidth = '250px';
-        dropdown.style.maxWidth = '350px';
+        dropdown.style.maxWidth = '650px';
         dropdown.style.zIndex = 1000;
         dropdown.style.display = 'none';
         input.parentNode.appendChild(dropdown);

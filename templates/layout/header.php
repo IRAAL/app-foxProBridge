@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../assets/bootstrap-5.3.6/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="../assets/css/style.css"/>
+    <script src="../assets/js/functions.js"></script>
     <title>Mi portal de consultas</title>
 </head>
 <body>
@@ -20,3 +21,4 @@
     </nav>
 
     <main class="container my-5">
+        <div id="toastContainer" class="position-fixed top-0 end-0 p-3" style="z-index: 1055;"></div>
